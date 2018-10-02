@@ -44,7 +44,7 @@ while flag :
         #access to div class attr way2
         divs2 = soup.select('div[class*=forecast]')
         #print(id(divs2))
-        time.sleep(5)
+        time.sleep(3)
 
 
 '''
