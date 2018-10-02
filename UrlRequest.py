@@ -19,6 +19,8 @@ class UrlRequest:
         return html
 
 
+#test
+'''
 req = UrlRequest()
 
 #request get html and find specific content in every 5seconds
@@ -44,3 +46,5 @@ while flag :
         #print(id(divs2))
         time.sleep(5)
 
+
+'''
