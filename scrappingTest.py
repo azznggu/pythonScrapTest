@@ -30,11 +30,6 @@ payload = {'key1':'value1','key2':'value2'}
 #    for chunk in r.iter_content(chunk_size = 128):
 #        f.write(chunk)
 
-
-#Custom Header
-
-
-
 # request method
 def get_html(url):
     url_head = url[:4]
@@ -77,3 +72,11 @@ while flag :
         divs2 = soup.select('div[class*=forecast]')
         print(id(divs2))
         time.sleep(3)
+
+
+
+
+
+
+
+
