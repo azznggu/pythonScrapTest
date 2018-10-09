@@ -7,7 +7,8 @@ import random
 class DrawGraph:
     def __init__(self):
         s = sched.scheduler(time.time, time.sleep)
-        style.use = "fivethirtyeight"
+        plt.ion()
+        plt.show()
 
     def draw(self) :
         figure = plt.figure()
@@ -20,6 +21,7 @@ class DrawGraph:
             plt.plot(x, y, linestyle='solid')
             plt.scatter(x, y)
             plt.pause(0.1)
+            plt.draw()
         #plt.show()
             
 
