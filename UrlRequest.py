@@ -20,14 +20,28 @@ class UrlRequest:
 
     def get_content(self, html):
         soup = BeautifulSoup(html,'html.parser')
-        print(soup)
+        #print(soup)
         soupText = str(soup.encode('utf-8'))
-        f = open('result.txt','w')
-        f.write(soupText)
 
         #access to div class attr way1
-        divs = soup.findAll('div',{'class':'forecastCity'})
-        print(id(divs))
+        tag = soup.findAll('ul',{'id':'exchangeList'})
+        if len(tag) :
+            count = 3
+            blind = str(soup.find_all('span',{'class':'blind'}))
+            value = str(soup.find_all('span',{'class':'value'}))
+            list = value.split('<span class="value">')
+            tempList = []
+            for i in list :
+                print(i[:-9])
+                tempList.append(i[:-9])
+
+            resultText = str(tag)
+            #print(resultText)
+            f = open('result.txt','w')
+            f.write(resultText)
+        else :
+            print("matching element does not exist.")
+
 
         #access to div class attr way2
         #divs2 = soup.select('div[class*=forecast]')

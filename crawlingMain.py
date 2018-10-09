@@ -5,7 +5,7 @@ from UrlRequest import UrlRequest
 def main() :
     req = UrlRequest()
     #request get html and find specific content in every 5seconds
-    url ='https://weather.yahoo.co.jp/weather/jp/13/4410.html'
+    url ='https://finance.naver.com/marketindex/'
     flag = True
     counter = 0
     #while flag :
