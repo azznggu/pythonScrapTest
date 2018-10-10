@@ -30,22 +30,15 @@ class UrlRequest:
             blind = str(soup.find_all('span',{'class':'blind'}))
             value = str(soup.find_all('span',{'class':'value'}))
             list = value.split('<span class="value">')
-            tempList = []
+            resultList = []
             for i in list :
-                print(i[:-9])
-                tempList.append(i[:-9])
-
+                #print(i[:-9])
+                resultList.append(i[:-9])
+             
             resultText = str(tag)
-            #print(resultText)
             f = open('result.txt','w')
             f.write(resultText)
+            return resultList
         else :
             print("matching element does not exist.")
-
-
-        #access to div class attr way2
-        #divs2 = soup.select('div[class*=forecast]')
-        #print(id(divs2))
-
-
-
+            return resultList

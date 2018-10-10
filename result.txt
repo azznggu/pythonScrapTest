@@ -2,77 +2,77 @@
 <li class="on">
 <a class="head usd" href="/marketindex/exchangeDetail.nhn?marketindexCd=FX_USDKRW" onclick="clickcr(this, 'fr1.usdt', '', '', event);">
 <h3 class="h_lst"><span class="blind">미국 USD</span></h3>
-<div class="head_info point_up">
-<span class="value">1,138.00</span>
+<div class="head_info point_dn">
+<span class="value">1,134.00</span>
 <span class="txt_krw"><span class="blind">원</span></span>
-<span class="change">7.50</span>
-<span class="blind">상승</span>
+<span class="change"> 4.00</span>
+<span class="blind">하락</span>y
 </div>
 </a>
 <a class="graph_img" href="/marketindex/exchangeDetail.nhn?marketindexCd=FX_USDKRW" onclick="clickcr(this, 'fr1.usdc', '', '', event);">
 <img alt="" height="153" src="https://ssl.pstatic.net/imgfinance/chart/marketindex/FX_USDKRW.png" width="295"/>
 </a>
 <div class="graph_info">
-<span class="time">2018.10.08 22:06</span>
+<span class="time">2018.10.10 15:30</span>
 <span class="source">KEB하나은행 기준</span>
-<span class="count">고시회차<span class="num">311</span>회</span>
+<span class="count">고시회차<span class="num">243</span>회</span>
 </div>
 </li>
 <li class="">
 <a class="head jpy" href="/marketindex/exchangeDetail.nhn?marketindexCd=FX_JPYKRW" onclick="clickcr(this, 'fr1.jpyt', '', '', event);">
 <h3 class="h_lst"><span class="blind">일본 JPY(100엔)</span></h3>
-<div class="head_info point_up">
-<span class="value">1,004.37</span>
+<div class="head_info point_dn">
+<span class="value">1,003.41</span>
 <span class="txt_krw"><span class="blind">원</span></span>
-<span class="change">10.74</span>
-<span class="blind">상승</span>
+<span class="change"> 0.96</span>
+<span class="blind">하락</span>
 </div>
 </a>
 <a class="graph_img" href="/marketindex/exchangeDetail.nhn?marketindexCd=FX_JPYKRW" onclick="clickcr(this, 'fr1.jpyc', '', '', event);">
 <img alt="" height="153" src="https://ssl.pstatic.net/imgfinance/chart/marketindex/FX_JPYKRW.png" width="295"/>
 </a>
 <div class="graph_info">
-<span class="time">2018.10.08 22:06</span>
+<span class="time">2018.10.10 15:30</span>
 <span class="source">KEB하나은행 기준</span>
-<span class="count">고시회차<span class="num">311</span>회</span>
+<span class="count">고시회차<span class="num">243</span>회</span>
 </div>
 </li>
 <li class="">
 <a class="head eur" href="/marketindex/exchangeDetail.nhn?marketindexCd=FX_EURKRW" onclick="clickcr(this, 'fr1.eurt', '', '', event);">
 <h3 class="h_lst"><span class="blind">유럽연합 EUR</span></h3>
-<div class="head_info point_up">
-<span class="value">1,305.29</span>
+<div class="head_info point_dn">
+<span class="value">1,304.44</span>
 <span class="txt_krw"><span class="blind">원</span></span>
-<span class="change">1.48</span>
-<span class="blind">상승</span>
+<span class="change"> 0.85</span>
+<span class="blind">하락</span>
 </div>
 </a>
 <a class="graph_img" href="/marketindex/exchangeDetail.nhn?marketindexCd=FX_EURKRW" onclick="clickcr(this, 'fr1.eurc', '', '', event);">
 <img alt="" height="153" src="https://ssl.pstatic.net/imgfinance/chart/marketindex/FX_EURKRW.png" width="295"/>
 </a>
 <div class="graph_info">
-<span class="time">2018.10.08 22:06</span>
+<span class="time">2018.10.10 15:30</span>
 <span class="source">KEB하나은행 기준</span>
-<span class="count">고시회차<span class="num">311</span>회</span>
+<span class="count">고시회차<span class="num">243</span>회</span>
 </div>
 </li>
 <li class="">
 <a class="head cny" href="/marketindex/exchangeDetail.nhn?marketindexCd=FX_CNYKRW" onclick="clickcr(this, 'fr1.cnyt', '', '', event);">
 <h3 class="h_lst"><span class="blind">중국 CNY</span></h3>
-<div class="head_info point_up">
-<span class="value">164.16</span>
+<div class="head_info point_dn">
+<span class="value">163.84</span>
 <span class="txt_krw"><span class="blind">원</span></span>
-<span class="change">0.12</span>
-<span class="blind">상승</span>
+<span class="change"> 0.32</span>
+<span class="blind">하락</span>
 </div>
 </a>
 <a class="graph_img" href="/marketindex/exchangeDetail.nhn?marketindexCd=FX_CNYKRW" onclick="clickcr(this, 'fr1.cnyc', '', '', event);">
 <img alt="" height="153" src="https://ssl.pstatic.net/imgfinance/chart/marketindex/FX_CNYKRW.png" width="295"/>
 </a>
 <div class="graph_info">
-<span class="time">2018.10.08 22:06</span>
+<span class="time">2018.10.10 15:30</span>
 <span class="source">KEB하나은행 기준</span>
-<span class="count">고시회차<span class="num">311</span>회</span>
+<span class="count">고시회차<span class="num">243</span>회</span>
 </div>
 </li>
 </ul>]
